@@ -1,3 +1,12 @@
+# 开拓等级升级所需时间计算
+计算升级所需时间
+尝试发布PyPI
+
+# 安装
+```
+pip install srec
+```
+
 # 示例
 ```python
 import srec

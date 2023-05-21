@@ -1,9 +1,9 @@
-import setuptools
+from setuptools import setup, find_packages
 
-setuptools.setup(
+setup(
     name='srec',
     version='1.0',
-    packages=setuptools.find_packages(),
+    packages=find_packages(),
     entry_points={
         'console_scripts': [
             'calculate = calculate:main'
